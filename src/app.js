@@ -15,7 +15,7 @@ const repositories = [];
 
 app.get("/repositories", (request, response) => {
     
-  return respose.json(repositories);
+  return response.json(repositories);
 
 });
 
